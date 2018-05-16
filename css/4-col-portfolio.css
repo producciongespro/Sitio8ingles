@@ -22,19 +22,24 @@ body {
 #creditoSecundar {color:#F7FE2E;font-size: 17px;  font-family: "Arial", serif;}
 #creditoInf {color:#ffffff;font-size: 14px; font-family: "Arial", serif;}
 
+
 /* Textos en general */
-h4  {color: #FF0040;}
+
 h1 {color: #FE2E64;}
 h2 {color: #F7FE2E;}
-h3 {color: #FF0040;}
+h3 {color: #58D3f7;}
+h4  {color: #FF0040;}
 h5 {text-decoration: underline;}
 .intro {color:#FFFFFF;}
 
 
+
+video { width: 100%; height: auto;}
+
 .card-text { font-weight: 700; }
 
-.modal-header {background-color: #b63776;}
-.card {background-color: #F6CED8;}
+.modal-header {background-color: #58D3f7;}
+.card {background-color: #A9E2F3;}
 
 
 
