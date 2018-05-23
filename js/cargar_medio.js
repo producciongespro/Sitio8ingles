@@ -24,11 +24,6 @@ function cargarMedio(Objeto) {
 console.log(opcion);
 	switch (opcion) {
 
-		case "wax":
-		controlMedio = $("<audio controls='true' preload='true'> </audio>");
-		$(controlMedio).attr("src" ,ruta);
-			break;
-
 		case "mp3":
 		controlMedio = $("<audio controls='true' preload='true'> </audio>");
  		$(controlMedio).attr("src" ,ruta);
@@ -43,8 +38,8 @@ console.log(opcion);
 				$(controlMedio).css("height", "420px");
 					break;
 
-					case "doc":
-					controlMedio = $("<embed id='currentMedio' src='"+ ruta +"' type='application/doc' width='100%' height='100%'></embed>");
+					case "ppt":
+					controlMedio = $("<embed id='currentMedio' src='"+ ruta +"' type='application/ppt' width='100%' height='100%'></embed>");
 					$(controlMedio).css("height", "420px");
 						break;
 
