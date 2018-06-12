@@ -30,7 +30,7 @@ console.log(opcion);
 			break;
 
 			case "youtube":
-			controlMedio = $("<iframe width='600px' height='400px' src='"+ ruta +"' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>");
+			controlMedio = $("<iframe width='100%' height='400px' src='"+ ruta +"' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>");
 				break;
 
 				case "pdf":
